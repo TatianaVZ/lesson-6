@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        // Задание 1
+        // Задание 6.1
         int clientOS = 1;
         if (clientOS == 0)
         {System.out.println("Установите версию приложения для iOS по ссылке" );}
         else {System.out.println("Установите версию приложения для Android по ссылке" );}
 
 
-        // Задание 2
+        // Задание 6.2
         int clientDeviceYear = 2015;
         int client = 1;
 
@@ -23,7 +23,7 @@ public class Main {
 
 
 
-          // Задание 3
+          // Задание 6.3
                 int year = 2021;
 
 
@@ -31,7 +31,7 @@ public class Main {
                 { System.out.println(year + " является высокосным ");}
                 else { System.out.println(year + " не является высокосным ");}
 
-// ЗАдание 4
+// ЗАдание 6.4
         int deliveryDistance = 95;
                 if (deliveryDistance <= 20)
                 {System.out.println("Потребуется 1 день доставки ");
@@ -39,7 +39,7 @@ public class Main {
                     {System.out.println("Потребуется 2 дня доставки ");}}
                 else {System.out.println("Потребуется 3 дня доставки ");}
 
-                // Задание 5
+                // Задание 6.5
 
         int  monthNumber = 13;
         switch (monthNumber) {
